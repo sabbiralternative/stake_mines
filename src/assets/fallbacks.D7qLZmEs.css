@@ -1,0 +1,15 @@
+.wallet-currency-dropdown.svelte-1okylyf {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+.wallet-currency-dropdown.svelte-1okylyf .button.variant-tab {
+  background-color: var(--grey-500);
+  padding: var(--spacing-3);
+  border-radius: var(--ds-radius-md, 0.25rem);
+}
+.wallet-currency-dropdown.svelte-1okylyf .button.variant-tab:active,
+.wallet-currency-dropdown.svelte-1okylyf .button.variant-tab:hover {
+  background-color: var(--grey-500);
+}

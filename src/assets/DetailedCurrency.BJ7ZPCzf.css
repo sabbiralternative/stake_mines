@@ -1,0 +1,35 @@
+.ctainer.svelte-k2kqna {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-2);
+  width: 100%;
+}
+.ctainer.hide-conversion.svelte-k2kqna {
+  align-items: flex-start;
+}
+.currency-details.svelte-k2kqna {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+.currency-details.svelte-k2kqna > svg {
+  font-size: 1.75rem;
+}
+.currency-ctainer.svelte-k2kqna {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-0-5);
+}
+.content.svelte-k2kqna {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.value-ctainer.svelte-k2kqna {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-0-5);
+  align-items: flex-end;
+}

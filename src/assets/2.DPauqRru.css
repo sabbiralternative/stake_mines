@@ -1,0 +1,1832 @@
+hr.svelte-rjxul {
+  background: var(--grey-400);
+  width: 2px;
+  height: 100%;
+}
+.minimized-tab.svelte-qkqvjx {
+  position: relative;
+  background: var(--grey-600);
+  pointer-events: auto;
+  display: flex;
+  color: var(--grey-100);
+  margin-right: calc(var(--ds-spacing-0-5) * -1);
+}
+.minimized-tab.svelte-qkqvjx:last-child {
+  border-top-left-radius: var(--ds-radius-md, var(--border-radius-md));
+}
+.title.svelte-qkqvjx {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  overflow: auto;
+  padding: var(--spacing-0) var(--spacing-3);
+}
+.title.svelte-qkqvjx span {
+  display: inline-block;
+}
+.wrap-icon.svelte-qkqvjx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-3);
+}
+.restore-button,
+.close-button {
+  padding: var(--spacing-0);
+}
+.minimized-tabs.svelte-rvoljl {
+  position: absolute;
+  bottom: var(--spacing-0);
+  right: var(--spacing-0);
+  display: flex;
+  flex-direction: row-reverse;
+  pointer-events: none;
+  box-shadow: 0 -4px 6px -1px #1b171733, 0 -2px 4px -1px #0000001f;
+  border-top-left-radius: var(--ds-radius-md, var(--border-radius-md));
+}
+.minimized-tabs.mobile.svelte-rvoljl {
+  bottom: calc(var(--mobile-footer-height) - var(--spacing-0-5));
+}
+.wrap.svelte-1944dyo {
+  min-height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--grey-900);
+  padding-right: var(--scrollbar-size);
+}
+.text-wrap.svelte-1944dyo {
+  width: 100%;
+  text-align: center;
+  padding: var(--spacing-4) var(--spacing-0) var(--spacing-4) var(--spacing-8);
+}
+.wrap.svelte-sf88y2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-shrink: 0;
+}
+.background-overlay.svelte-1p7c4mj {
+  position: fixed;
+  top: var(--spacing-0);
+  left: var(--spacing-0);
+  right: var(--spacing-0);
+  bottom: var(--spacing-0);
+  z-index: -999;
+  background-color: var(--grey-600);
+  pointer-events: none;
+}
+.draggable.svelte-1p7c4mj {
+  display: flex;
+  position: fixed;
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+  box-shadow: 0 -12px 10px -4px #0000001f, 0 -20px 25px -8px #00000029,
+    0 20px 10px -5px #00000014, 0 10px 25px -5px #0003;
+  background: var(--grey-500);
+  color: var(--grey-100);
+  min-width: 280px;
+  max-width: 90vw;
+  flex-direction: column;
+  opacity: 1;
+  max-height: calc(100vh - var(--header-height) - var(--draggable-bottom));
+}
+@media (hover: none) {
+  .draggable.svelte-1p7c4mj {
+    max-height: calc(100dvh - var(--header-height) - var(--draggable-bottom));
+  }
+}
+.draggable.minimized.svelte-1p7c4mj {
+  pointer-events: none;
+}
+.header.svelte-1p7c4mj {
+  cursor: move;
+  display: flex;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: var(--grey-600);
+  border-radius: var(--ds-radius-md, 0.5rem) var(--ds-radius-md, 0.5rem) 0 0;
+  touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  overscroll-behavior: none;
+  -webkit-user-drag: none;
+}
+.content.svelte-1p7c4mj {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border-bottom-left-radius: var(--ds-radius-md, 0.5rem);
+  border-bottom-right-radius: var(--ds-radius-md, 0.5rem);
+  overflow: hidden;
+  touch-action: pan-y;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.title.svelte-1p7c4mj {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding-left: var(--spacing-4);
+}
+.wrap-icon.svelte-1p7c4mj {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: var(--spacing-3);
+}
+.wrapper.svelte-1b1wwhi,
+.wrapper.svelte-sx6qar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper.svelte-sx6qar .content-or-loader {
+  width: 100%;
+}
+.button-inner.svelte-sx6qar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.graph-wrap.svelte-z15ccp {
+  padding: var(--spacing-8) var(--spacing-4) var(--spacing-4) var(--spacing-4);
+  position: relative;
+}
+.graph-tooltip.svelte-z15ccp {
+  position: absolute;
+  top: var(--spacing-4);
+  left: var(--spacing-4);
+}
+.statistic.svelte-z15ccp {
+  display: flex;
+  flex-direction: column;
+}
+.statistic-card.svelte-z15ccp {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.statistic-card.svelte-z15ccp > * + * {
+  margin-top: var(--spacing-1);
+}
+.main-info.svelte-z15ccp {
+  display: flex;
+  padding: var(--spacing-4);
+  background: var(--grey-700);
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+}
+.divider.svelte-z15ccp {
+  background: var(--grey-500);
+  width: 2px;
+  display: flex;
+  margin: var(--spacing-0) var(--spacing-4);
+}
+.timer.svelte-14y3dtm {
+  width: 100px;
+  height: 50px;
+  position: relative;
+}
+.circle.svelte-14y3dtm {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border-bottom: 0 !important;
+  transition: clip-path 1s ease-in-out;
+}
+.time.svelte-14y3dtm {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+@keyframes svelte-14y3dtm-arrowUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+}
+@keyframes svelte-14y3dtm-arrowDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+}
+.up.svelte-14y3dtm {
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-duration: 0.5s;
+  animation-iteration-count: 3;
+  animation-name: svelte-14y3dtm-arrowUp;
+}
+.down.svelte-14y3dtm {
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-duration: 0.5s;
+  animation-iteration-count: 3;
+  animation-name: svelte-14y3dtm-arrowDown;
+}
+.currency-wrap.svelte-14y3dtm {
+  max-width: 100px;
+}
+.statistic.svelte-14y3dtm,
+.statistic-card.svelte-14y3dtm {
+  display: flex;
+  flex-direction: column;
+}
+.statistic-card.svelte-14y3dtm > * + * {
+  margin-top: var(--spacing-1);
+}
+.wrapper.svelte-1b1wwhi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.draggable-stats-content.svelte-8qpnn8 {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-3) var(--spacing-4);
+}
+.draggable-stats-content.svelte-8qpnn8 > * + * {
+  margin-top: var(--spacing-3);
+}
+.dropdown-wrapper.svelte-8qpnn8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-4);
+  align-items: stretch;
+}
+.dropdown-wrapper.svelte-8qpnn8 .dropdown-top:where(.svelte-8qpnn8) {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap.svelte-lszgur {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-auto-flow: row;
+  gap: var(--spacing-4);
+  justify-items: center;
+  margin: var(--spacing-0) auto;
+}
+.wrap.svelte-lszgur > *:not(button) {
+  width: 100%;
+}
+.wrap.svelte-lszgur:not(.full-width) {
+  max-width: 300px;
+}
+.wrap.svelte-t23qp {
+  min-height: 350px;
+  display: grid;
+  grid-gap: var(--spacing-4);
+  width: 100%;
+  height: 100%;
+  align-items: end;
+  text-align: center;
+  justify-items: center;
+}
+.wrap.svelte-t23qp > button {
+  width: 100%;
+}
+.wrap.svelte-1ml0gex {
+  padding: var(--spacing-4);
+}
+.cookie-banner.svelte-3q6xrh {
+  position: fixed;
+  color: var(--grey-100);
+  width: max-content;
+  bottom: var(--bottom);
+  left: 50%;
+  transform: translate(-50%);
+  background-color: var(--grey-500);
+  border-radius: var(--ds-radius-md, var(--border-radius-base));
+  padding: var(--spacing-3) var(--spacing-4);
+  margin: var(--spacing-4) var(--spacing-0);
+  box-shadow: var(--shadows-md);
+  width: 100%;
+  max-width: 500px;
+  z-index: var(--index);
+}
+.outer-wrap.svelte-3q6xrh {
+  display: grid;
+  place-items: center;
+  gap: var(--spacing-4);
+}
+.column.svelte-54m3yi {
+  display: grid;
+  grid-gap: var(--spacing-2);
+  align-content: flex-start;
+}
+.logo-wrapper.svelte-a190tp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-8);
+}
+.logo-wrapper.svelte-a190tp img:where(.svelte-a190tp) {
+  width: auto;
+  height: 2.5rem;
+  margin: var(--spacing-0) auto;
+}
+.footer-grid.svelte-1phy4x4 {
+  grid-template-columns: repeat(auto-fit, minmax(14ch, 1fr));
+}
+.footer-grid.svelte-1phy4x4 span {
+  text-align: initial;
+}
+.support-wrap.svelte-195cid6 {
+  display: grid;
+  transition: 0.25s;
+  position: fixed;
+  bottom: var(--spacing-2);
+  grid-gap: var(--spacing-4);
+  right: 0;
+  transform: translate(var(--translate));
+  box-shadow: 0 0 5px #1b171780 !important;
+  z-index: 1000;
+  border-radius: var(--ds-radius-full, 3em);
+}
+.support-wrap.svelte-195cid6 > button {
+  padding: var(--spacing-2) var(--spacing-3);
+}
+.wrap:has(.minimized-tab) + .support-wrap.svelte-195cid6 {
+  bottom: calc(var(--spacing-2) + var(--minimized-tab-height));
+}
+.base-sidebar-anchor.svelte-1ih38ux:focus-visible div:first-child {
+  outline: var(--focus-outline-white);
+  outline-offset: calc(-1 * var(--focus-outline-width));
+}
+.wrapper-text.svelte-1ypv2p6 {
+  display: flex;
+  flex-direction: column;
+}
+hr.svelte-11l92x3 {
+  background: var(--grey-400);
+  height: 2px;
+  width: 100%;
+}
+.productImg.svelte-e9uzq {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: var(--ds-radius-md, var(--border-radius-base));
+}
+.header-button.svelte-e9uzq {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.25rem;
+  border-radius: var(--ds-radius-md, var(--border-radius-base));
+  color: var(--white);
+  font-size: var(--text-size-default);
+  font-weight: 700;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+  -webkit-user-select: none;
+  user-select: none;
+}
+.header-button.collapsed.svelte-e9uzq {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex: unset;
+}
+.header-button.svelte-e9uzq:focus-visible {
+  outline: var(--focus-outline-white);
+  outline-offset: 0.125rem;
+}
+.header-button.mobile.svelte-e9uzq {
+  min-height: 50px;
+}
+.header.svelte-k06lb0 {
+  display: flex;
+  padding: var(--spacing-0) var(--spacing-4) var(--spacing-0) var(--spacing-0);
+  touch-action: none;
+  box-shadow: var(--shadows-lg);
+}
+.header.collapsed.svelte-k06lb0 {
+  flex-direction: column;
+  padding: var(--spacing-0) var(--spacing-0) var(--spacing-2) var(--spacing-0);
+  box-shadow: none;
+}
+.link-wrap.svelte-k06lb0 {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  width: 100%;
+}
+.link-wrap.collapsed.svelte-k06lb0 {
+  flex-direction: column;
+  padding: var(--spacing-2) var(--spacing-0) var(--spacing-0) var(--spacing-0);
+}
+.menu-button.svelte-k06lb0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  min-width: 3.75rem;
+  height: 3.75rem;
+  border-radius: var(--ds-radius-md, var(--border-radius-base));
+}
+.menu-button.collapsed.svelte-k06lb0 {
+  box-shadow: var(--shadows-lg);
+}
+.menu-button.svelte-k06lb0:hover {
+  color: var(--white);
+}
+.menu-button.svelte-k06lb0:focus-visible {
+  outline: var(--focus-outline-white);
+  outline-offset: -0.3rem;
+}
+.sidebar-accordion-title.svelte-1p8q9bi {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+.sidebar-accordion-title.active.svelte-1p8q9bi .svg-icon.svg-icon {
+  color: var(--white);
+}
+.sidebar-accordion.svelte-1p8q9bi .header-side-stacked .svg-icon {
+  font-size: var(--text-size-xs);
+}
+.sidebar-content.svelte-1p8q9bi {
+  margin-left: var(--ds-spacing-6, 1.4rem);
+  border-left: 2px solid var(--grey-400);
+}
+.option.svelte-1brfgeq {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  line-height: var(--spacing-6);
+}
+.sidebar.svelte-11833cs {
+  word-wrap: break-word;
+  position: relative;
+  background: var(--grey-700);
+  filter: drop-shadow(0 0 5px rgba(25, 25, 25, 0.25));
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 100%;
+  will-change: margin-left;
+}
+.sidebar.svelte-11833cs .scroll-contain:where(.svelte-11833cs) {
+  overscroll-behavior: contain;
+}
+.sidebar.normal.svelte-11833cs {
+  width: var(--width);
+}
+.sidebar.small.svelte-11833cs {
+  width: var(--width);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.sidebar.fullsize.svelte-11833cs {
+  position: fixed;
+  top: var(--header-height);
+  padding-bottom: var(--header-height);
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+.content.svelte-11833cs {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-content: flex-start;
+  padding: var(--spacing-0);
+  touch-action: pan-x;
+  flex: 1;
+}
+.content.svelte-11833cs a:focus-visible {
+  outline-offset: calc(-1 * var(--focus-outline-width));
+}
+.content.svelte-11833cs button:focus-visible {
+  outline-offset: calc(-1 * var(--focus-outline-width));
+}
+.content.svelte-11833cs button.variant-link:focus-visible {
+  text-decoration: none;
+}
+.content.svelte-11833cs button.variant-link:focus-visible span {
+  text-decoration: none;
+}
+.inner-content.svelte-11833cs {
+  display: flex;
+  flex-direction: column;
+}
+.scrollable-content.svelte-11833cs {
+  padding: var(--spacing-4);
+}
+.scrollable-content-mobile.svelte-11833cs {
+  padding: var(--spacing-0) var(--spacing-4);
+  padding-bottom: 5rem;
+}
+.overlay.svelte-11833cs {
+  position: fixed;
+  top: var(--spacing-0);
+  left: var(--spacing-0);
+  bottom: var(--spacing-0);
+  right: var(--spacing-0);
+  background-color: #0e1224b3;
+}
+.add-background.svelte-11833cs {
+  background-color: var(--grey-600);
+  border-radius: var(--ds-radius-md, var(--border-radius-base));
+}
+.sidebar.svelte-1t9d4iq {
+  word-wrap: break-word;
+  position: relative;
+  background: var(--grey-700);
+  filter: drop-shadow(0 0 5px rgba(25, 25, 25, 0.25));
+  display: flex;
+  flex-direction: column;
+  z-index: var(--z-index);
+  flex-shrink: 0;
+  height: 100%;
+  will-change: margin-left;
+}
+.sidebar.normal.svelte-1t9d4iq {
+  width: var(--width);
+}
+.sidebar.small.svelte-1t9d4iq {
+  width: var(--width);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.content.svelte-1t9d4iq {
+  display: flex;
+  overflow: hidden;
+}
+.scrollable-content.svelte-1t9d4iq {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+  scrollbar-gutter: stable;
+  padding: var(--spacing-0) var(--spacing-0-5) var(--spacing-0) var(--spacing-2);
+}
+.small-size-padding.svelte-1681xqd {
+  height: 100%;
+  flex-shrink: 0;
+  background-color: transparent;
+}
+.mobile-icon-style.svelte-aebahz svg {
+  width: 1rem;
+  height: 1rem;
+}
+.mobile-icon-style.active.svelte-aebahz svg {
+  color: var(--white);
+}
+.button-wrap.svelte-aebahz {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.button-wrap.active.svelte-aebahz:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 4px;
+  width: 60%;
+  background-color: var(--blue-400);
+}
+.content.svelte-aebahz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: var(--spacing-1);
+  font-weight: 700;
+  font-size: var(--text-size-sm);
+}
+.badge.svelte-aebahz {
+  position: absolute;
+  top: 0;
+  transform: translate(70%, 60%);
+}
+.wrap.svelte-1vskfs4 {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  line-height: 1;
+  padding: var(--spacing-0) var(--spacing-4);
+  background: var(--grey-700);
+  box-shadow: 0 -4px 6px -1px #0003;
+  overflow: hidden;
+  height: var(--mobile-footer-height);
+  grid-template-columns: repeat(5, 1fr);
+  position: fixed;
+  bottom: 0;
+}
+.wrap.svelte-1b7tzzb {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  line-height: 1;
+  padding: var(--spacing-0) var(--spacing-4);
+  background: var(--grey-700);
+  box-shadow: 0 -4px 6px -1px #0003;
+  overflow: hidden;
+  height: var(--mobile-footer-height);
+  grid-template-columns: repeat(4, 1fr);
+  position: fixed;
+  bottom: 0;
+}
+.snack-notification.svelte-1jnklg9 {
+  display: contents;
+}
+.snack-notification.svelte-1jnklg9:hover .timer:where(.svelte-1jnklg9) {
+  animation-play-state: paused;
+}
+.timer.svelte-1jnklg9 {
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--grey-300);
+  transform-origin: left;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-name: svelte-1jnklg9-countDown;
+  animation-duration: 5s !important;
+  border-bottom-left-radius: var(--ds-radius-md, var(--border-radius-base));
+}
+.timer.persistent.svelte-1jnklg9 {
+  animation-duration: 10000s !important;
+  opacity: 0;
+}
+@keyframes svelte-1jnklg9-countDown {
+  0% {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+.notification-list.svelte-sr7ew9 {
+  display: grid;
+  grid-auto-flow: row;
+  gap: var(--spacing-4);
+  position: fixed;
+  top: 5rem;
+  left: 1rem;
+}
+.navigation-header.svelte-1mo7y74 {
+  background: var(--grey-700);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--header-height);
+  z-index: 2;
+  position: relative;
+  box-shadow: var(--shadows-lg);
+  flex-shrink: 0;
+  touch-action: none;
+  padding-right: var(--scrollbar-size);
+  padding-left: var(--space-4);
+}
+.bet-strip-top.svelte-12h9rfa {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet-strip-bottom.svelte-12h9rfa {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px 1px/0.7rem 0.7rem repeat-x;
+}
+.bet-slip-loader-wrap.svelte-12h9rfa .content {
+  aspect-ratio: unset !important;
+}
+.header.svelte-i9bxl2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-2);
+  padding: var(--spacing-2) var(--spacing-3);
+  background: var(--grey-400);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  min-height: 34px;
+}
+.header.header--no-bg.svelte-i9bxl2 {
+  background: var(--grey-500);
+  border-radius: 0;
+}
+.fixture-name.svelte-i9bxl2 {
+  width: 100%;
+  max-width: calc(100% - var(--spacing-12));
+  display: flex;
+  align-items: center;
+}
+.fixture-name.svelte-i9bxl2 > * + * {
+  margin-left: var(--spacing-2);
+}
+.fixture-name.svelte-i9bxl2 > a {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  gap: var(--spacing-2);
+}
+.content.svelte-eo7w0x {
+  width: 100%;
+  flex-shrink: 0;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  position: relative;
+  padding: var(--spacing-2) var(--spacing-3) var(--spacing-3);
+  box-shadow: var(--shadows-md);
+  background: var(--grey-500);
+  grid-template-areas: "market market market market odds odds" "outcome outcome outcome outcome eachway eachway" "extrainfo extrainfo extrainfo extrainfo extrainfo extrainfo" "footer footer footer footer footer footer" "footer footer footer footer footer footer" "max-bet max-bet max-bet max-bet max-bet max-bet";
+}
+.content.negative.svelte-eo7w0x {
+  border-left-color: var(--red-400);
+}
+.content.multi.svelte-eo7w0x {
+  padding-top: 0;
+}
+.market-name.svelte-eo7w0x {
+  grid-area: market;
+}
+.outcome-name.svelte-eo7w0x {
+  font-weight: 600;
+  color: var(--white);
+  display: inline-flex;
+  grid-area: outcome;
+  text-transform: capitalize;
+  align-items: flex-start;
+}
+.each-way.svelte-eo7w0x {
+  grid-area: eachway;
+  justify-self: flex-end;
+}
+.odds-payout.svelte-eo7w0x {
+  grid-area: odds;
+  justify-self: flex-end;
+}
+.closed.svelte-eo7w0x {
+  justify-self: flex-end;
+  grid-area: odds;
+}
+.bet.svelte-eo7w0x {
+  position: relative;
+  color: var(--grey-200);
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--grey-600);
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+  font-size: var(--text-size-default);
+}
+.bet.before.svelte-eo7w0x:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  top: -4px;
+}
+.bet.before.negative.svelte-eo7w0x:not(.bet--multi):before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--red-800) 35%,
+      var(--red-800) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.before.svelte-eo7w0x:not(.negative),
+.bet.before.bet--multi.svelte-eo7w0x {
+  border-radius: 0;
+}
+.bet.before.svelte-eo7w0x:not(.negative):before,
+.bet.before.bet--multi.svelte-eo7w0x:before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.after.svelte-eo7w0x:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  bottom: -4px;
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px 1px/0.7rem 0.7rem repeat-x;
+}
+.bet.inactive.svelte-eo7w0x,
+.bet.suspended.svelte-eo7w0x {
+  opacity: 0.5 !important;
+}
+.bet.suspended.svelte-eo7w0x .content:where(.svelte-eo7w0x) {
+  background: var(--grey-500);
+}
+.content.svelte-qagiqj {
+  width: 100%;
+  flex-shrink: 0;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  position: relative;
+  padding: var(--spacing-2) var(--spacing-3) var(--spacing-3);
+  box-shadow: var(--shadows-md);
+  background: var(--grey-500);
+  grid-template-areas: "market market market market odds odds" "outcome outcome outcome outcome eachway eachway" "extrainfo extrainfo extrainfo extrainfo extrainfo extrainfo" "footer footer footer footer footer footer" "footer footer footer footer footer footer" "max-bet max-bet max-bet max-bet max-bet max-bet";
+}
+.content.negative.svelte-qagiqj {
+  border-left-color: var(--red-400);
+}
+.content.multi.svelte-qagiqj {
+  padding-top: 0;
+}
+.market-name.svelte-qagiqj {
+  grid-area: market;
+}
+.outcome-name.svelte-qagiqj {
+  font-weight: 600;
+  color: var(--white);
+  display: inline-flex;
+  grid-area: outcome;
+  text-transform: capitalize;
+  align-items: flex-start;
+}
+.closed.svelte-qagiqj {
+  justify-self: flex-end;
+  grid-area: odds;
+}
+.bet.svelte-qagiqj {
+  position: relative;
+  color: var(--grey-200);
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--grey-600);
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+  font-size: var(--text-size-default);
+}
+.bet.before.svelte-qagiqj:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  top: -4px;
+}
+.bet.before.negative.svelte-qagiqj:not(.bet--multi):before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--red-800) 35%,
+      var(--red-800) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.before.svelte-qagiqj:not(.negative),
+.bet.before.bet--multi.svelte-qagiqj {
+  border-radius: 0;
+}
+.bet.before.svelte-qagiqj:not(.negative):before,
+.bet.before.bet--multi.svelte-qagiqj:before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.after.svelte-qagiqj:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  bottom: -4px;
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px 1px/0.7rem 0.7rem repeat-x;
+}
+.bet.inactive.svelte-qagiqj,
+.bet.suspended.svelte-qagiqj {
+  opacity: 0.5 !important;
+}
+.bet.suspended.svelte-qagiqj .content:where(.svelte-qagiqj) {
+  background: var(--grey-500);
+}
+.info-footer.svelte-p4co3v {
+  display: flex;
+  grid-area: amount;
+}
+.estimated-label.svelte-p4co3v {
+  grid-area: return;
+  justify-self: flex-end;
+  align-self: flex-start;
+  font-size: var(--text-size-sm);
+}
+.estimated-amount.svelte-p4co3v {
+  grid-area: estimatedAmount;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+.total.svelte-p4co3v {
+  grid-area: amount;
+}
+.error-list.svelte-p4co3v {
+  display: flex;
+  grid-area: messages;
+}
+.footer.svelte-p4co3v {
+  display: grid;
+  grid-area: footer;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: var(--spacing-1);
+  grid-template-areas: "amount amount amount amount amount amount amount amount return return return return" "amount amount amount amount amount amount amount amount estimatedAmount estimatedAmount estimatedAmount estimatedAmount" "messages messages messages messages messages messages messages messages messages messages messages messages";
+}
+.content.svelte-7ijir4 {
+  width: 100%;
+  flex-shrink: 0;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: auto;
+  position: relative;
+  padding: var(--spacing-2) var(--spacing-3) var(--spacing-3);
+  box-shadow: var(--shadows-md);
+  background: var(--grey-500);
+  grid-template-areas: "market market market market market market market market market market market market" "outcome outcome outcome outcome outcome outcome outcome outcome eachway eachway eachway eachway" "extrainfo extrainfo extrainfo extrainfo extrainfo extrainfo extrainfo extrainfo extrainfo extrainfo extrainfo extrainfo" "footer footer footer footer footer footer footer footer footer footer footer footer" "footer footer footer footer footer footer footer footer footer footer footer footer" "max-bet max-bet max-bet max-bet max-bet max-bet max-bet max-bet max-bet max-bet max-bet max-bet";
+}
+.content.negative.svelte-7ijir4 {
+  border-left-color: var(--red-400);
+}
+.content.multi.svelte-7ijir4 {
+  padding-top: 0;
+}
+.market-name.svelte-7ijir4 {
+  grid-area: market;
+}
+.closed.svelte-7ijir4 {
+  justify-self: flex-end;
+  grid-area: odds;
+}
+.bet.svelte-7ijir4 {
+  position: relative;
+  color: var(--grey-200);
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--grey-600);
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+  font-size: var(--text-size-default);
+}
+.bet.before.svelte-7ijir4:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  top: -4px;
+}
+.bet.before.negative.svelte-7ijir4:not(.bet--multi):before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--red-800) 35%,
+      var(--red-800) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.before.svelte-7ijir4:not(.negative),
+.bet.before.bet--multi.svelte-7ijir4 {
+  border-radius: 0;
+}
+.bet.before.svelte-7ijir4:not(.negative):before,
+.bet.before.bet--multi.svelte-7ijir4:before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.after.svelte-7ijir4:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  bottom: -4px;
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px 1px/0.7rem 0.7rem repeat-x;
+}
+.bet.inactive.svelte-7ijir4,
+.bet.suspended.svelte-7ijir4 {
+  opacity: 0.5 !important;
+}
+.bet.suspended.svelte-7ijir4 .content:where(.svelte-7ijir4) {
+  background: var(--grey-500);
+}
+.odds.svelte-16ssccz {
+  transition: color 0.3s;
+  position: relative;
+  font-feature-settings: "tnum";
+}
+@keyframes svelte-16ssccz-increased {
+  0%,
+  20% {
+    transform: translateY(20%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+}
+@keyframes svelte-16ssccz-decreased {
+  0%,
+  20% {
+    transform: translateY(-20%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+}
+.static-arrow.svelte-16ssccz,
+.arrow-odds.svelte-16ssccz {
+  position: absolute;
+  font-size: var(--text-size-sm);
+}
+.static-arrow.align-left.svelte-16ssccz,
+.arrow-odds.align-left.svelte-16ssccz {
+  right: calc(100% + 0.25em);
+}
+.static-arrow.align-right.svelte-16ssccz,
+.arrow-odds.align-right.svelte-16ssccz {
+  left: calc(100% + 0.25em);
+}
+.static-arrow.increased.svelte-16ssccz,
+.arrow-odds.increased.svelte-16ssccz {
+  color: var(--green-500);
+}
+.static-arrow.decreased.svelte-16ssccz,
+.arrow-odds.decreased.svelte-16ssccz {
+  color: var(--red-500);
+}
+.static-arrow.svelte-16ssccz {
+  top: 15%;
+}
+.arrow-odds.svelte-16ssccz {
+  animation-duration: 0.8s;
+  animation-iteration-count: 4;
+}
+.arrow-odds.animating.increased.svelte-16ssccz {
+  animation-name: svelte-16ssccz-increased;
+}
+.arrow-odds.animating.decreased.svelte-16ssccz {
+  animation-name: svelte-16ssccz-decreased;
+}
+.arrow-odds.increased.svelte-16ssccz,
+.arrow-odds.decreased.svelte-16ssccz {
+  top: 15%;
+}
+.arrow-odds.svelte-16ssccz:not(.animating) {
+  opacity: 1;
+}
+.content.svelte-bc1386 {
+  width: 100%;
+  flex-shrink: 0;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  position: relative;
+  padding: var(--spacing-2) var(--spacing-3) var(--spacing-3);
+  box-shadow: var(--shadows-md);
+  background: var(--grey-500);
+  grid-template-areas: "market market market market maxBet maxBet" "outcome outcome outcome outcome outcome odds" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
+}
+.content.negative.svelte-bc1386 {
+  border-left-color: var(--red-400);
+}
+.content.multi.svelte-bc1386 {
+  padding-top: 0;
+}
+.market-name.svelte-bc1386 {
+  grid-area: market;
+}
+.max-bet.svelte-bc1386 {
+  grid-area: maxBet;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.outcome-name.svelte-bc1386 {
+  font-weight: 600;
+  color: var(--white);
+  display: inline-flex;
+  align-items: center;
+  grid-area: outcome;
+  text-transform: capitalize;
+  align-items: baseline;
+}
+.odds-payout.svelte-bc1386 {
+  grid-area: odds;
+  justify-self: flex-end;
+}
+.closed.svelte-bc1386 {
+  justify-self: flex-end;
+  grid-area: odds;
+}
+.bet.svelte-bc1386 {
+  position: relative;
+  color: var(--grey-200);
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--grey-600);
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+  font-size: var(--text-size-default);
+}
+.bet.before.svelte-bc1386:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  top: -4px;
+}
+.bet.before.negative.svelte-bc1386:not(.bet--multi):before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--red-800) 35%,
+      var(--red-800) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.before.svelte-bc1386:not(.negative),
+.bet.before.bet--multi.svelte-bc1386 {
+  border-radius: 0;
+}
+.bet.before.svelte-bc1386:not(.negative):before,
+.bet.before.bet--multi.svelte-bc1386:before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.after.svelte-bc1386:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  bottom: -4px;
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px 1px/0.7rem 0.7rem repeat-x;
+}
+.bet.inactive.svelte-bc1386,
+.bet.suspended.svelte-bc1386 {
+  opacity: 0.5 !important;
+}
+.bet.suspended.svelte-bc1386 .content:where(.svelte-bc1386) {
+  background: var(--grey-500);
+}
+.content.svelte-wrvthf {
+  width: 100%;
+  flex-shrink: 0;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  position: relative;
+  padding: var(--spacing-2) var(--spacing-3) var(--spacing-3);
+  box-shadow: var(--shadows-md);
+  background: var(--grey-500);
+  grid-template-areas: "market market market market maxBet maxBet" "outcome outcome outcome outcome outcome odds" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
+}
+.content.negative.svelte-wrvthf {
+  border-left-color: var(--red-400);
+}
+.content.multi.svelte-wrvthf {
+  padding-top: 0;
+}
+.market-name.svelte-wrvthf {
+  grid-area: market;
+}
+.max-bet.svelte-wrvthf {
+  grid-area: maxBet;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.outcome-name.svelte-wrvthf {
+  font-weight: 600;
+  color: var(--white);
+  display: inline-flex;
+  align-items: center;
+  grid-area: outcome;
+  text-transform: capitalize;
+  align-items: baseline;
+}
+.odds-payout.svelte-wrvthf {
+  grid-area: odds;
+  justify-self: flex-end;
+}
+.closed.svelte-wrvthf {
+  justify-self: flex-end;
+  grid-area: odds;
+}
+.bet.svelte-wrvthf {
+  position: relative;
+  color: var(--grey-200);
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--grey-600);
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+  font-size: var(--text-size-default);
+}
+.bet.before.svelte-wrvthf:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  top: -4px;
+}
+.bet.before.negative.svelte-wrvthf:not(.bet--multi):before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--red-800) 35%,
+      var(--red-800) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.before.svelte-wrvthf:not(.negative),
+.bet.before.bet--multi.svelte-wrvthf {
+  border-radius: 0;
+}
+.bet.before.svelte-wrvthf:not(.negative):before,
+.bet.before.bet--multi.svelte-wrvthf:before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.after.svelte-wrvthf:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  bottom: -4px;
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px 1px/0.7rem 0.7rem repeat-x;
+}
+.bet.inactive.svelte-wrvthf,
+.bet.suspended.svelte-wrvthf {
+  opacity: 0.5 !important;
+}
+.bet.suspended.svelte-wrvthf .content:where(.svelte-wrvthf) {
+  background: var(--grey-500);
+}
+.content.svelte-n7sqtc {
+  width: 100%;
+  flex-shrink: 0;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  position: relative;
+  padding: var(--spacing-2) var(--spacing-3) var(--spacing-3);
+  box-shadow: var(--shadows-md);
+  background: var(--grey-500);
+  grid-template-areas: "market market market market maxBet maxBet" "outcome outcome outcome outcome outcome odds" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
+}
+.content.negative.svelte-n7sqtc {
+  border-left-color: var(--red-400);
+}
+.content.multi.svelte-n7sqtc {
+  padding-top: 0;
+}
+.customBet.svelte-n7sqtc {
+  grid-area: outcome;
+}
+.leg.svelte-n7sqtc {
+  display: flex;
+  flex-direction: column;
+}
+.max-bet.svelte-n7sqtc {
+  grid-area: maxBet;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.odds-payout.svelte-n7sqtc {
+  grid-area: odds;
+  justify-self: flex-end;
+}
+.closed.svelte-n7sqtc {
+  justify-self: flex-end;
+  grid-area: odds;
+}
+.bet.svelte-n7sqtc {
+  position: relative;
+  color: var(--grey-200);
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--grey-600);
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+  font-size: var(--text-size-default);
+}
+.bet.before.svelte-n7sqtc:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  top: -4px;
+}
+.bet.before.negative.svelte-n7sqtc:not(.bet--multi):before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--red-800) 35%,
+      var(--red-800) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.before.svelte-n7sqtc:not(.negative),
+.bet.before.bet--multi.svelte-n7sqtc {
+  border-radius: 0;
+}
+.bet.before.svelte-n7sqtc:not(.negative):before,
+.bet.before.bet--multi.svelte-n7sqtc:before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.after.svelte-n7sqtc:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  bottom: -4px;
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px 1px/0.7rem 0.7rem repeat-x;
+}
+.bet.inactive.svelte-n7sqtc,
+.bet.suspended.svelte-n7sqtc {
+  opacity: 0.5 !important;
+}
+.bet.suspended.svelte-n7sqtc .content:where(.svelte-n7sqtc) {
+  background: var(--grey-500);
+}
+.content.svelte-1pe0v8m {
+  width: 100%;
+  flex-shrink: 0;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  position: relative;
+  padding: var(--spacing-2) var(--spacing-3) var(--spacing-3);
+  box-shadow: var(--shadows-md);
+  background: var(--grey-500);
+  grid-template-areas: "market market market market maxBet maxBet" "outcome outcome outcome outcome outcome odds" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
+}
+.content.negative.svelte-1pe0v8m {
+  border-left-color: var(--red-400);
+}
+.content.multi.svelte-1pe0v8m {
+  padding-top: 0;
+}
+.bet.svelte-1pe0v8m {
+  position: relative;
+  color: var(--grey-200);
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--grey-600);
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+  font-size: var(--text-size-default);
+}
+.bet.before.svelte-1pe0v8m:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  top: -4px;
+}
+.bet.before.negative.svelte-1pe0v8m:not(.bet--multi):before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--red-800) 35%,
+      var(--red-800) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.before.svelte-1pe0v8m:not(.negative),
+.bet.before.bet--multi.svelte-1pe0v8m {
+  border-radius: 0;
+}
+.bet.before.svelte-1pe0v8m:not(.negative):before,
+.bet.before.bet--multi.svelte-1pe0v8m:before {
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px -6px/0.7rem 0.7rem repeat-x;
+}
+.bet.after.svelte-1pe0v8m:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  bottom: -4px;
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px 1px/0.7rem 0.7rem repeat-x;
+}
+.bet.inactive.svelte-1pe0v8m,
+.bet.suspended.svelte-1pe0v8m {
+  opacity: 0.5 !important;
+}
+.bet.suspended.svelte-1pe0v8m .content:where(.svelte-1pe0v8m) {
+  background: var(--grey-500);
+}
+.customBet.svelte-1pe0v8m {
+  grid-area: outcome;
+}
+.leg.svelte-1pe0v8m {
+  display: flex;
+  flex-direction: column;
+}
+.max-bet.svelte-1pe0v8m {
+  grid-area: maxBet;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.odds-payout.svelte-1pe0v8m {
+  grid-area: odds;
+  justify-self: flex-end;
+}
+.closed.svelte-1pe0v8m {
+  justify-self: flex-end;
+  grid-area: odds;
+}
+.multi-bet-card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  bottom: -4px;
+  background: radial-gradient(
+      circle,
+      transparent,
+      transparent 35%,
+      var(--grey-500) 35%,
+      var(--grey-500) 100%
+    )
+    0px 1px/0.7rem 0.7rem repeat-x;
+}
+.multi-bet-card--collapsed {
+  margin-bottom: 0;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+}
+.betlist.svelte-1n4rpgg {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.betlist-scroll.svelte-1n4rpgg {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 0px;
+  padding: var(--space-3) var(--space-4) var(--space-4);
+  overscroll-behavior: contain;
+}
+.betlist-scroll.svelte-1n4rpgg:not(.is-multi) > * + * {
+  margin-top: var(--space-3);
+}
+.betlist-scroll.is-multi.svelte-1n4rpgg > * + * {
+  margin-top: var(--space-2);
+}
+.footer.svelte-1n4rpgg {
+  display: grid;
+  padding: var(--space-4);
+  row-gap: var(--space-3);
+  background: var(--grey-500);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  z-index: 1;
+  box-shadow: 0 -4px 6px -4px #1b171733, 0 -2px 4px -2px #0000001f;
+}
+.betlist.svelte-oop6jf {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.betlist-scroll.svelte-oop6jf {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 0px;
+  padding: var(--space-2) var(--space-4);
+}
+.betlist-scroll.svelte-oop6jf > * + * {
+  margin-top: var(--space-3);
+}
+.footer.svelte-1wszl25 {
+  display: grid;
+  padding: var(--spacing-4);
+  row-gap: var(--spacing-3);
+  background: var(--grey-500);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  z-index: 1;
+  box-shadow: 0 -4px 6px -4px #1b171733, 0 -2px 4px -2px #0000001f;
+}
+.betlist.svelte-n9ezkw {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.betlist-scroll.svelte-n9ezkw {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 0px;
+  padding: var(--spacing-2) var(--spacing-4);
+}
+.betlist-scroll.svelte-n9ezkw > * + * {
+  margin-top: var(--spacing-3);
+}
+.footer.svelte-1ehofib {
+  display: grid;
+  padding: var(--space-4);
+  row-gap: var(--space-3);
+  background: var(--grey-500);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  z-index: 1;
+  box-shadow: 0 -4px 6px -4px #1b171733, 0 -2px 4px -2px #0000001f;
+}
+.sidebar.svelte-14p2frt {
+  word-wrap: break-word;
+  will-change: margin-right;
+  background: var(--grey-700);
+  filter: drop-shadow(0 0 5px rgba(25, 25, 25, 0.25));
+  z-index: var(--z-index);
+  flex-shrink: 0;
+  width: var(--width);
+}
+.sidebar.svelte-14p2frt .content:where(.svelte-14p2frt) {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.sidebar.svelte-14p2frt:not(.mobile) .content:where(.svelte-14p2frt) {
+  height: 100%;
+}
+.sidebar.mobile.svelte-14p2frt {
+  position: fixed;
+  right: 0;
+  top: var(--header-height);
+  bottom: 0;
+}
+.sidebar.mobile.svelte-14p2frt .content:where(.svelte-14p2frt) {
+  height: 100%;
+  padding: var(--spacing-0) var(--spacing-0) var(--mobile-footer-height)
+    var(--spacing-0);
+}
+.loading.svelte-wv9mqd {
+  z-index: 2000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--grey-600);
+  display: flex;
+  align-items: center;
+  touch-action: none;
+  justify-content: center;
+  flex-direction: column;
+}
+.loading.svelte-wv9mqd > * + * {
+  margin-top: var(--spacing-4);
+}
+.loader.svelte-wv9mqd {
+  width: 100%;
+  max-width: 100px;
+}
+.wrap.svelte-14wd3nz {
+  text-align: center;
+}
+.content.svelte-14wd3nz {
+  padding: var(--spacing-4);
+  border-width: 2px;
+  border-style: dotted;
+  border-radius: var(--ds-radius-md, 0.5rem);
+  border-color: var(--yellow-500);
+  box-shadow: var(--shadows-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+.wrap.svelte-1f4qsqk {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.skip-nav.svelte-1f4qsqk {
+  transition: top 195ms cubic-bezier(0.4, 0, 1, 1) 0ms;
+  position: absolute;
+  top: -50%;
+  left: 1%;
+  z-index: 1000;
+}
+.skip-nav.svelte-1f4qsqk:focus-within {
+  transition: top 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  top: 6%;
+}
+.main-content.svelte-1f4qsqk {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
+}
+.scrollable.svelte-1f4qsqk {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  flex: 1;
+}
+.mobile.svelte-1f4qsqk {
+  padding-bottom: var(--mobile-footer-height);
+}
+.mobile.mobile-landscape.svelte-1f4qsqk {
+  padding-top: var(--spacing-0);
+  padding-bottom: var(--spacing-0);
+}

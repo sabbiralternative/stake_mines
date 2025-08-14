@@ -1,0 +1,11 @@
+.ctainer.svelte-19af0lk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-2);
+  width: 100%;
+}
+.badge-wrapper.svelte-19af0lk {
+  margin-right: var(--spacing-4);
+  display: flex;
+}

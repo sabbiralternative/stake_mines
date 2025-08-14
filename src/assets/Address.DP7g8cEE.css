@@ -1,0 +1,7 @@
+.label-wrap.svelte-yzpxsi {
+  display: inline-flex;
+  align-items: center;
+}
+.label-wrap.svelte-yzpxsi > * + * {
+  margin-left: var(--spacing-1);
+}

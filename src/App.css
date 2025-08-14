@@ -1,0 +1,341 @@
+#optimoveSdkWebTool {
+  width: 0;
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #fff;
+  z-index: 1000;
+}
+
+#optimoveSdkWebTool.open {
+  max-width: 1500px;
+  min-width: 340px;
+  height: 100vh;
+}
+
+#optimoveSdkWebTool.open.ag-theme-balham {
+  width: 500px;
+  display: block;
+  z-index: 10000;
+  -webkit-box-shadow: -3px 0 10px 0 rgba(200, 200, 200, 0.5);
+  box-shadow: -3px 0 10px 0 rgba(200, 200, 200, 0.5);
+}
+
+#optimovePanelHead.panel-heading {
+  padding: 16px 15px;
+}
+
+#optimovePanelHead .popupDiv {
+  padding-left: 334px;
+  position: relative;
+}
+
+#optimovePanelHead .popupDiv .popup {
+  position: absolute;
+  visibility: hidden;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup {
+  visibility: visible;
+  display: block;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: 4px;
+  opacity: 1;
+  width: 109px;
+  height: 84px;
+  z-index: 1;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockRightPicDiv {
+  height: 28px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockRightPicDiv .dockText {
+  display: inline;
+  padding-left: 6px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockRightPicDiv:hover {
+  background-color: #eceff1;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockLeftPicDiv {
+  height: 28px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockLeftPicDiv .dockText {
+  display: inline;
+  padding-left: 6px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockLeftPicDiv:hover {
+  background-color: #eceff1;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockBottomPicDiv {
+  height: 28px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockBottomPicDiv .dockText {
+  display: inline;
+  padding-left: 6px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockBottomPicDiv:hover {
+  background-color: #eceff1;
+}
+
+#optimovePanelHead .popup.popupNotShow {
+  visibility: hidden;
+}
+
+#optimovePanelHead .popup.showPopup {
+  visibility: visible;
+  display: block;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: 4px;
+  opacity: 1;
+  width: 109px;
+  height: 83px;
+}
+
+#optimoveSdkWebTool.open.ag-theme-balham .ag-header-cell {
+  padding-right: 0px !important;
+}
+
+#optimoveSDKDragger {
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 1;
+  cursor: w-resize;
+}
+
+#optimoveSdkWebTool .material-icons {
+  cursor: pointer;
+}
+
+#optimoveSdkWebTool .ag-root-wrapper.ag-layout-normal {
+  height: calc(100% - 103px);
+}
+
+#optimoveSdkWebTool.ag-theme-balham .is-not-main {
+  background-color: #eceff1;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .errorNotMainRow {
+  background-color: #ffd6c2;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-header-cell {
+  background-color: #cfd8dc;
+  box-sizing: content-box;
+}
+
+#optimoveSdkWebTool .ag-header-cell-text {
+  color: #455a64;
+  text-align: left;
+  font: Bold 12px/14px Roboto;
+  letter-spacing: 0;
+  opacity: 1;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell {
+  text-align: left;
+  font: Regular 12px/14px Roboto;
+  letter-spacing: 0;
+  color: #37474f;
+  opacity: 1;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell .fa-angle-right,
+#optimoveSdkWebTool.ag-theme-balham .ag-cell .fa-angle-down {
+  width: 18px;
+  height: 18px;
+  padding-right: 10px;
+  color: #37474f;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell .fa-exclamation-circle {
+  padding-right: 20px;
+  width: 16px;
+  height: 17px;
+  color: #ff5500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham
+  .ag-cell.mainRowClass.optDateCell.optHasError {
+  color: #ff5500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham
+  .ag-cell.mainRowClass.mainRowClassEventId.optHasError {
+  color: #ff5500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham
+  .ag-cell.mainRowClass.mainRowClassEventName.optHasError {
+  color: #ff5500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell.notMainDateRowClass {
+  left: 26px !important;
+  white-space: normal !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham
+  .ag-cell.notMainDateRowClass.optParametersWarning {
+  color: #212121 !important;
+  font-weight: bold !important;
+  left: 26px !important;
+}
+
+#optimoveSdkWebTool .cell-wrap-text {
+  white-space: normal !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham
+  .ag-cell.notMainDateRowClass.optNotExistWarning {
+  left: 26px !important;
+  left: 26px !important;
+  white-space: nowrap !important;
+  color: #cf4500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham
+  .ag-cell.notMainRowClass.notMainRowClassEventId {
+  left: 160px !important;
+  font-weight: bold;
+  white-space: normal !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham
+  .ag-cell.notMainRowClass.notMainRowClassEventId.optHasError {
+  left: 160px !important;
+  font-weight: normal;
+  white-space: normal !important;
+}
+
+#optimoveSdkWebTool .ag-overlay-loading-center {
+  text-align: center;
+  font: Bold 24px/28px Roboto;
+  letter-spacing: 0;
+  color: #f2f0f0;
+  opacity: 1;
+}
+
+#optimoveSdkWebTool .cell-parameter-value {
+  width: 540px !important;
+}
+
+#optimoveSdkWebTool .ag-full-width-row {
+  padding-left: 8px !important;
+  padding-top: 16px !important;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLine .optimoveWebToolBtnClose {
+  box-shadow: none;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLine .optimoveWebToolBtnClose i {
+  font-size: 17px;
+  color: #5f7c8a;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLine .positionButtonPic {
+  padding-right: 10px;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLineText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8px;
+  color: #424242;
+  text-align: left;
+  font: Light 18px/18px Roboto;
+  letter-spacing: 0;
+  opacity: 1;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#optimoveSdkWebTool .optimoveBottomHeadLineText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0 5px;
+  text-align: left;
+  font: Regular 12px/16px Roboto;
+  letter-spacing: 0;
+  color: #546e7a;
+  opacity: 1;
+}
+
+#optimoveSdkWebTool .opvArrowNoParams {
+  visibility: hidden;
+}
+
+#optimoveSdkWebTool .btn-link.opt-btn-link {
+  padding-top: 5px;
+  padding-left: 0px;
+  border: 0;
+  cursor: pointer;
+  color: #00aaff;
+  font-size: 12px;
+  font-weight: 700;
+  user-select: none;
+  text-shadow: none;
+  background-color: white !important;
+}
+
+#optimoveSdkWebTool .btn-link.opt-btn-link:hover {
+  color: #00699e !important;
+  text-decoration: none;
+}
+
+#optimoveSdkWebTool .opt-btn-link.btn-link.disable-btn:hover {
+  color: #b0bec5 !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-header-cell::after,
+.ag-theme-balham .ag-header-group-cell::after {
+  border-right: none;
+}
+
+#optimoveSdkWebTool .ag-row-hover {
+  background-color: #f5f7f7 !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-row-selected.opti-row-class {
+  background-color: white !important;
+  border-color: #d9dcde;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-root {
+  border: 0px !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-overlay-loading-center {
+  border: 0px !important;
+}

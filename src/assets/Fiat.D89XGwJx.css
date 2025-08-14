@@ -1,0 +1,7 @@
+.fiat-wrapper.svelte-1u6e76g {
+  display: inline-flex;
+  align-items: center;
+}
+.fiat-wrapper.svelte-1u6e76g > * + * {
+  margin-left: var(--spacing-1);
+}

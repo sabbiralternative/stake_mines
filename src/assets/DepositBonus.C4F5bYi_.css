@@ -1,0 +1,17 @@
+.ctainer.svelte-1mp9c7j {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+.ctainer.svelte-1mp9c7j:not(.is-modal) {
+  border: 1px solid var(--grey-400);
+  border-radius: var(--ds-radius-md, var(--border-radius-md));
+  padding: var(--spacing-6);
+}
+.conditions.svelte-1mp9c7j li:where(.svelte-1mp9c7j) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--grey-500);
+  padding: var(--spacing-2) var(--spacing-0);
+}

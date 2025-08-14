@@ -1,0 +1,13 @@
+.bets-list-board-wrap.svelte-1v9obih {
+  height: 100%;
+  background: var(--color-grey-600);
+}
+.header.svelte-1v9obih {
+  background: var(--color-grey-700);
+  box-shadow: var(--shadows-sm);
+}
+.body.svelte-1v9obih {
+  flex: 1;
+  overscroll-behavior: contain;
+  overflow-y: auto;
+}
