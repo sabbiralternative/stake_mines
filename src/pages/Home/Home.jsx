@@ -9,8 +9,11 @@ import Navbar from "./Navbar";
 import { generateRoundId } from "../../utils/generateRoundId";
 import toast from "react-hot-toast";
 import { playBetSound, playWin1Sound } from "../../utils/sound";
+import { useSelector } from "react-redux";
 
 const Home = () => {
+  const { token } = useSelector((state) => state.auth);
+  const errorMessage = sessionStorage.getItem("errorMessage");
   const { sound } = useSound();
   const { mutate: handleAuth } = useAuth();
   const [addOrder] = useOrderMutation();
@@ -74,7 +77,7 @@ const Home = () => {
         const multiplier = Number(res?.current_multiplier) * betAmount;
         setCurrentMultiplier(multiplier.toFixed(2));
         // setNextMultiplier(res?.next_multiplier);
-        handleAuth();
+        handleAuth(token);
         setIsStartGame(true);
         setTimeout(() => {
           let recentResult = [];
@@ -113,7 +116,7 @@ const Home = () => {
         // playCashOutSound();
       }
       setWinMultiplier(res?.win_multiplier);
-      handleAuth();
+      handleAuth(token);
       const findBoxAndChange = boxData?.map((boxObj, i) => ({
         ...boxObj,
         win: res?.all?.[i] === 1 ? true : false,
@@ -139,7 +142,7 @@ const Home = () => {
     }
   };
 
-  return (
+  return token ? (
     <div id="svelte">
       <div data-layout className="wrap svelte-1f4qsqk">
         <div data-layout className="main-content svelte-1f4qsqk">
@@ -272,6 +275,13 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  ) : (
+    <div className="error-container">
+      <div className="alert alert-danger text-center m-0 " role="alert">
+        {errorMessage ||
+          "URL parameters are missing or invalid. Key: token | Value"}
       </div>
     </div>
   );
