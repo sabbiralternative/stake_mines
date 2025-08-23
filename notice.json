@@ -7,7 +7,7 @@
     "settings": {
       "siteTitle": "Stake Mines",
       "disabledDevtool": false,
-      "baseUrl": "/stake_mines",
+      "baseUrl": "",
       "lobby": "https://aura365.io"
     },
 
